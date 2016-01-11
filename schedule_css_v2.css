@@ -1,0 +1,22 @@
+
+.printPage
+{
+  margin: 0px;
+  padding: 0px;
+  width: 670px; /* width: 7in; */
+  height: 900px; /* or height: 9.5in; */
+  clear: both;
+  background-color: gray;
+  page-break-after: always;
+}
+
+
+.page
+{ 
+  position: relative;
+  top: 1in;
+  left: 1in;
+  width: 1in;
+  height: 1in;
+  background-color: white;
+}

@@ -1,0 +1,192 @@
+
+.schedule_list_block {
+float: left; 
+margin: 2%;
+}
+
+#label_bloack {
+display: block;
+}
+
+#label_shift {
+display: inline;
+color:gray;
+margin-bottom: 6px;
+margin-left: 25px;
+}
+#label_available {
+display: inline;
+color:gray;
+margin-bottom: 6px;
+margin-left: 35px;
+}
+#label_non_rotational {
+display: inline;
+color:gray;
+margin-bottom: 6px;
+margin-left: 13px;
+}
+#label_posted_position {
+display: inline;
+color:gray;
+margin-bottom: 6px;
+margin-left: 10px;
+}
+
+#schedule_page_info, #schedule_page_time {
+display:none;
+}
+
+
+
+/* EMPLOYEES & POSITION */
+
+/* manually set the size of the page. */
+
+#schedule_page_content {
+	display: block;
+	background-color:white;
+	font-size: 11px;
+	font-family: Roboto, georgia, serif;
+	width: 7in;
+	height: 10in;
+}
+
+
+.schedule_list_block {
+	background-color:white;
+	font-size: 11px;
+	font-family: Roboto, calibri, georgia, serif;
+	margin: 1.5%;
+	display:inline;
+}
+
+.header_facility {
+display:inline-block;
+border-style: inset;
+border-width: 3px;
+border-color: #009688;
+width: 6.5in;
+height: .20in;
+text-align: center;
+font-family: Roboto, calibri, georgia, serif;
+font-size: 12px;
+margin-top: 6mm;
+margin-left: 3mm;
+
+}
+
+
+
+
+/*
+CSS TO PRINT THE SCHEDULES
+*/
+@media print {
+
+
+/* HIDE USELESS DIVS */
+#schedule_page_header, #schedule_page_footer, #schedule_page_content_1, #schedule_page_content_2, #schedule_page_content_3 {
+  display: none;
+}
+
+
+
+
+
+
+
+
+/* EMPLOYEES & POSITION */
+
+/* manually set the size of the page. */
+
+#schedule_page_content {
+	display: block;
+	background-color:white;
+	font-size: 11px;
+	font-family: Roboto, georgia, serif;
+	width: 7in;
+	height: 13in;
+}
+
+
+.schedule_list_block {
+	background-color:white;
+	font-size: 13.5px;
+	font-family: Roboto, calibri, georgia, serif;
+	margin: 1.5%;
+	display:inline;
+}
+
+.header_facility {
+display:inline-block;
+border-style: inset;
+border-width: 3px;
+border-color: #009688;
+width: 6.5in;
+height: .20in;
+text-align: center;
+font-family: Roboto, calibri, georgia, serif;
+font-size: 12px;
+margin-top: 6mm;
+margin-left: 3mm;
+
+}
+
+
+/* HEADER */
+#schedule_page_info {
+display:block;
+background-color: #3F51B5;
+width: 7in;
+height: 1in;
+}
+#schedule_page_time {
+display:block;
+background-color: #00BCD4;
+width: 7in;
+height: 0.25in;
+color:white;
+font-family: Roboto, calibri, georgia, serif;
+text-align:center;
+font-size:20px;
+}
+#schedule_page_station {
+display: inline-block;
+background-color: #FF5722; /*rgb(0,121,50);*/
+width: 2in;
+height: 1in;
+font-size: 35px;
+color:white;
+font-family: roboto, calibri, georgia, serif;
+text-align:center;
+line-height: 1in;
+}
+
+#schedule_page_date {
+display: inline-block;
+background-color: #E91E63;/*rgb(210,38,48);*/
+width: 3.5in;
+height: 1in;
+font-size: 35px;
+color:white;
+font-family: roboto, calibri, georgia, serif;
+text-align:center;
+line-height: 1in;
+}
+#schedule_page_shift {
+display: inline-block;
+background-color: #673AB7;
+width: 1.5in;
+height: 1in;
+font-size: 35px;
+color:white; /*rgb(76,51,39);*/
+font-family: roboto, calibri, georgia, serif;
+text-align:center;
+line-height: 1in;
+}
+
+
+
+}

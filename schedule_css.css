@@ -1,0 +1,106 @@
+/* EMPLOYEES & POSITION */
+
+/* manually set the size of the page. */
+
+/*
+CSS TO PRINT THE SCHEDULES
+*/
+
+
+.customPrintPage
+{
+  margin: 0px;
+  padding: 0px;
+  width: 725px; /* width: 7in; */
+  height: 1215px;/* 1215px; /* or height: 9.5in; clear: both; */
+  margin-bottom: 50px;
+  background-color: blue;
+  page-break-after: always;
+}
+
+.customHeaderDay
+{
+display: block;
+margin:0px;
+padding:0px;
+width: 725px;
+height: 60px;
+background-color: orange;
+font-size: 22px;
+text-align: center;
+color: white;
+}
+
+.customHeaderNight
+{
+display: block;
+margin:0px;
+padding:0px;
+width: 725px;
+height: 60px;
+background-color: blue;
+font-size: 22px;
+text-align: center;
+color: white;
+}
+
+
+.customStationHeader
+{
+display: block;
+clear:both;
+margin: 0px;
+padding: 0px;
+width: 725px;
+height: auto;
+font-size: 22px;
+text-align:justify;
+color: white;
+background-color: black;
+}
+
+.customPositionArea
+{
+display: block;
+overflow: hidden;
+margin: 0px;
+padding: 0px;
+width: 725px;
+height: auto;
+text-align:justify;
+color: black;
+background-color: red;
+}
+
+.customPositions
+{
+float: left;
+margin: 3px;
+padding: 0px;
+width: 235px;
+height: 16px;
+font-size: 12px;
+text-align: left;
+background-color: yellow;
+}
+
+
+
+@media print {
+
+
+/* HIDE USELESS DIVS */
+#schedule_page_header, #schedule_page_footer, #schedule_page_content_1, #schedule_page_content_2, #schedule_page_content_3 {
+  display: none;
+}
+
+
+/* EMPLOYEES & POSITION */
+
+/* manually set the size of the page. */
+
+
+
+
+}
+
